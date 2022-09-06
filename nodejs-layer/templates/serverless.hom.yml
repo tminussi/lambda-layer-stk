@@ -2,4 +2,4 @@ provider:
   stackTags:
     lambda_version: "v0.0.1"
   deploymentBucket:
-    name: {{inputs.deploymentBucket}}
+    name: {{inputs.staging_deployment_bucket}}
