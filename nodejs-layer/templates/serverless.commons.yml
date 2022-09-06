@@ -1,0 +1,17 @@
+service: {{inputs.project_name}}
+
+frameworkVersion: ">=2.24.0"
+
+plugins:
+  - serverless-deployment-bucket
+
+provider:
+  name: aws
+  region: sa-east-1
+  runtime: nodejs14.x
+
+layers:
+  commonDependencies:
+    path: layer
+    compatibleRuntimes:
+      - nodejs14.x
