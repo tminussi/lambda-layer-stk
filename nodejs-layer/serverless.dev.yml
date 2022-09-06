@@ -1,5 +1,0 @@
-provider:
-  stackTags:
-    lambda_version: "85bd68bc"
-  deploymentBucket:
-    name: {{inputs.dev_deployment_bucket}}
