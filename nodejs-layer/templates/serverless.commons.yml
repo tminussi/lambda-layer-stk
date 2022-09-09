@@ -1,4 +1,4 @@
-service: {{inputs.project_name}}
+service: {{inputs.layer_name}}
 
 frameworkVersion: ">=2.24.0"
 
