@@ -1,5 +1,5 @@
 {
-  "name": "{{inputs.project_name}}",
+  "name": "{{inputs.layer_name}}",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
