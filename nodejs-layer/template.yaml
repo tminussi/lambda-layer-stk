@@ -6,7 +6,6 @@ inputs:
   - label: Project name
     type: text
     name: project_name
-    default: project-name
   - label: Deployment Bucket for your Development Environment
     type: text
     name: dev_deployment_bucket
