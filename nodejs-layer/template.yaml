@@ -3,9 +3,9 @@ description: Describe your template explaining its purpose
 types:
   - app-template
 inputs:
-  - label: Project name
+  - label: Layer name
     type: text
-    name: project_name
+    name: layer_name
   - label: Deployment Bucket for your Development Environment
     type: text
     name: dev_deployment_bucket
