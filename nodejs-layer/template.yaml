@@ -15,3 +15,7 @@ inputs:
   - label: Deployment Bucket for your Production Environment
     type: text
     name: production_deployment_bucket
+  - label: Variavel de Teste
+    type: text
+    name: aaa
+    
